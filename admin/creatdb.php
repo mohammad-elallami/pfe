@@ -51,7 +51,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                         address VARCHAR(255),
                         city VARCHAR(100),
                         sold DECIMAL(10, 2),
-                        order_id INT
                     )",
         'order' => "CREATE TABLE IF NOT EXISTS orders (
                         order_id INT AUTO_INCREMENT PRIMARY KEY,
